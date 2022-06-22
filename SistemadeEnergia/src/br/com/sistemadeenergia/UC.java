@@ -15,6 +15,7 @@ public class UC {
 	//- O método "faturar(leitura: int): int" recebe por parâmetro um valor correspondente a leitura corrente. 
 	//O valor da leitura anterior vai receber o atual e o atual passa a receber o corrente. 
 	//Este método ainda retorna o consumo, que é a diferença entre o atual e o anterior.
+	
 	public int faturar(int leitura) {
 		leituraAnterior = leituraAtual;
 		leituraAtual = leitura;
