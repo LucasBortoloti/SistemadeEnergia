@@ -7,7 +7,13 @@ public class Fatura {
 	private int mesAno;
 	
 	private UC unidadeConsumidora;
-
+	
+	private int consumo;
+	
+	private boolean pago;
+	
+	
+	
 
 }
 
